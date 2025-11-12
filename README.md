@@ -1,10 +1,22 @@
 **1.Introdução:**
 
-Este documento apresenta uma documentação completa, organizada e profissional do programa em linguagem C desenvolvido para registrar funcionários, calcular valores de horas extras e consultar registros salvos em arquivo. O sistema implementa validações, cálculos avançados, controle de horário e estruturação por menu. Este PDF inclui explicações detalhadas, trechos do código-fonte, estruturas internas, além de conceitos utilizados no desenvolvimento.
+Este documento apresenta um programa em linguagem C desenvolvido para registrar funcionários, calcular valores de horas extras e consultar registros salvos em arquivo. O sistema implementa validações, cálculos avançados, controle de horário e estruturação por menu. Este PDF inclui explicações detalhadas, trechos do código-fonte, estruturas internas, além de conceitos utilizados no desenvolvimento.
 
 **2.Descrição Geral do Sistema:**
 
-O programa permite registrar funcionários com regras e validações rígidas. Ele só permite registro dentro de uma janela específica de horário (entre 14:00 e 15:00). Informações salvas são armazenadas em arquivo e podem ser listadas posteriormente. O sistema é dividido em: • Menu principal • Módulo de registro • Módulo de listagem • Controle de horário • Cálculos trabalhistas • Armazenamento em arquivo
+O programa permite registrar funcionários com regras e validações rígidas. Ele só permite registro dentro de uma janela específica de horário (entre 14:00 e 15:00). Informações salvas são armazenadas em arquivo e podem ser listadas posteriormente. O sistema é dividido em:
+
+• Menu principal 
+
+• Módulo de registro 
+
+• Módulo de listagem
+
+• Controle de horário 
+
+• Cálculos trabalhistas
+
+• Armazenamento em arquivo
 
 **3.Controle de Horário:**
 O programa converte o horário atual do sistema para minutos desde 00:00, permitindo comparações
