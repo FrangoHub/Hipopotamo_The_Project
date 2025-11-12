@@ -74,22 +74,22 @@ int main() {
 
             while (1) {
                 printf("Digite o salário mensal: ");
-                if (scanf("%f", &f[i].salario) == 1) break;
-                printf("Entrada inválida! Digite um número.\n");
+                if (scanf("%f", &f[i].salario) == 1 && f[i].salario > 0) break;
+                printf("Entrada inválida! Digite um número inteiro positivo.\n");
                 while (getchar() != '\n');
             }
 
             while (1) {
                 printf("Digite as horas extras desejadas: ");
-                if (scanf("%f", &f[i].hora_extra) == 1) break;
-                printf("Entrada inválida! Digite um valor numérico.\n");
+                if (scanf("%f", &f[i].hora_extra) == 1 && f[i].hora_extra >= 0) break;
+                printf("Entrada inválida! Digite um valor numérico inteiro positivo.\n");
                 while (getchar() != '\n');
             }
 
             while (1) {
                 printf("Horas semanais trabalhadas: ");
-                if (scanf("%f", &f[i].hora_semanal) == 1) break;
-                printf("Entrada inválida! Digite um valor numérico.\n");
+                if (scanf("%f", &f[i].hora_semanal) == 1 && f[i].hora_semanal >= 0) break;
+                printf("Entrada inválida! Digite um valor numérico inteiro positivo.\n");
                 while (getchar() != '\n');
             }
 
@@ -199,4 +199,3 @@ int main() {
 
     return 0;
 }
-
